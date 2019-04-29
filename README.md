@@ -1,8 +1,8 @@
-# `cci-images` Overview
+# `cimg` Overview
 
-The `cci-images` GitHub organization contains all of the official `cimg` namespaced Docker images.
-Each Docker image has a repository where the image is built and its `Dockerfile` is located.
-This GitHub org is maintained by the CircleCI Community & Partner Engineering Team.
+See the `cimg` topic tag on the CircleCI-Public organization for all repositories associated with new images work:
+
+https://github.com/search?q=topic%3Acimg+org%3ACircleCI-Public&type=Repositories
 
 
 ## Structure
