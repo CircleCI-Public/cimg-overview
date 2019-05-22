@@ -4,7 +4,11 @@ This repository serves as an overview of CircleCI's revamped Docker convenience 
 
 ## Structure
 
-See [the `cimg` topic tag on the CircleCI-Public organization](https://github.com/search?q=topic%3Acimg+org%3ACircleCI-Public&type=Repositories) for all repositories associated with new images work. The repositories under this topic tag consist of documentation and shared resources ([`cimg-overview`](https://github.com/CircleCI-Public/cimg-overview), [`cimg-docs`](https://github.com/CircleCI-Public/cimg-docs), [`cimg-shared`](https://github.com/CircleCI-Public/cimg-shared)), a single base image ([`cimg-base`](https://github.com/CircleCI-Public/cimg-base)), and a repository for each language/tool image covered by the current convenience images fleet (so far, only [`cimg-golang`](https://github.com/CircleCI-Public/cimg-golang) and [`cimg-ruby`](https://github.com/CircleCI-Public/cimg-ruby) exist)
+See [the `cimg` topic tag on the CircleCI-Public organization](https://github.com/search?q=topic%3Acimg+org%3ACircleCI-Public&type=Repositories) for all repositories associated with new images work. The repositories under this topic tag consist of the following:
+
+- Documentation and shared resources ([`cimg-overview`](https://github.com/CircleCI-Public/cimg-overview), [`cimg-docs`](https://github.com/CircleCI-Public/cimg-docs), [`cimg-shared`](https://github.com/CircleCI-Public/cimg-shared));
+- A single base image ([`cimg-base`](https://github.com/CircleCI-Public/cimg-base));
+- A repository for each language/tool image covered by the current convenience images fleet (so far, only [`cimg-golang`](https://github.com/CircleCI-Public/cimg-golang) and [`cimg-ruby`](https://github.com/CircleCI-Public/cimg-ruby) exist)
 
 ## Contributing
 
