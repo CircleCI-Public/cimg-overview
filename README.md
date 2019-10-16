@@ -1,10 +1,32 @@
-# CircleCI "Prototype" Convenience Images Overview
+# CircleCI "cimg" Convenience Images Overview
 
-The `cci-images` GitHub organization contains all of the official `cimg` namespaced Docker images.
+The CircleCI `cimg` Convenience Images are a suit of Docker images that are intended to replace the legacy Convenience Images.
+The legacy images live in [this repository](https://github.com/circleci/circleci-images) and use the Docker Hub orgname `circleci`.
+The new images live in this GitHub org (`CircleCI-Public`) and the repository names are prefixed with `cimg-`.
+The Docker Hub orgname for the new images is `cimg`.
+
 Each Docker image has a repository where the image is built and its `Dockerfile` is located.
 This GitHub org is maintained by the CircleCI Community & Partner Engineering Team.
 
 This repository serves as an overview of CircleCI's revamped Docker convenience images pilot project. This project is intended to improve the user experience for CircleCI convenience images and solve a number of underlying problems in the original images' codebase.
+
+## Status
+
+Since there are many images, they are in different stages of their life cycle.
+This table will show where each image is and how "ready" they are to replace their predecessor.
+
+| Name | Image | Release Life Cycle | GitHub | Docker Hub | Notes |
+| --- | --- | --- | --- | --- | --- |
+| Ubuntu Base | `cimg/base` |  **public beta** | [link](https://github.com/CircleCI-Public/cimg-base) | [link](https://hub.docker.com/r/cimg/base) | new image |
+| Elixir | `cimg/elixir` |  **private beta** | [link](https://github.com/CircleCI-Public/cimg-elixir) | [link](https://hub.docker.com/r/cimg/elixir) | Replaces `circleci/elixir` |
+| Go | `cimg/go` |  **public beta** | [link](https://github.com/CircleCI-Public/cimg-go) | [link](https://hub.docker.com/r/cimg/go) | Replaces `circleci/golang` |
+
+**Release Life Cycle:**
+- alpha - image is recently created and still in the prototyping phase. Will have big changes and may even be deleted.
+- private beta - image is tested on a 1 on 1 basis with specific people and teams to gather feedback. Breaking changes likely.
+- public beta - image can be used by anyone but please provide feedback if you have it, breaking changes less likely.
+- stable - image is considered production ready. Breaking changes are rare and will be communicated first.
+
 
 ## Structure
 
