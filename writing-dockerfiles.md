@@ -1,0 +1,1 @@
+- when adding PPAs in order to install software, the PPA should be removed unless the end-user actually needs it
