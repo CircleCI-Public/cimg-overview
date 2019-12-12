@@ -24,10 +24,10 @@ This table will show where each image is and how "ready" they are to replace the
 | Go | `cimg/go` |  **public beta** | [link](https://github.com/CircleCI-Public/cimg-go) | [link](https://hub.docker.com/r/cimg/go) | Replaces `circleci/golang` |
 | Node.js | `cimg/node` |  **public beta** | [link](https://github.com/CircleCI-Public/cimg-node) | [link](https://hub.docker.com/r/cimg/node) | Replaces `circleci/node` |
 | OpenJDK | `cimg/openjdk` |  **private beta** | [link](https://github.com/CircleCI-Public/cimg-openjdk) | [link](https://hub.docker.com/r/cimg/openjdk) | Replaces `circleci/openjdk` |
-| PHP | `cimg/php` |  **private beta** | [link](https://github.com/CircleCI-Public/cimg-php) | [link](https://hub.docker.com/r/cimg/php) | Replaces `circleci/php` |
+| PHP | `cimg/php` |  **public beta** | [link](https://github.com/CircleCI-Public/cimg-php) | [link](https://hub.docker.com/r/cimg/php) | Replaces `circleci/php` |
 | Python | `cimg/python` |  **public beta** | [link](https://github.com/CircleCI-Public/cimg-python) | [link](https://hub.docker.com/r/cimg/python) | Replaces `circleci/python` |
 | Ruby | `cimg/ruby` |  **public beta** | [link](https://github.com/CircleCI-Public/cimg-ruby) | [link](https://hub.docker.com/r/cimg/ruby) | Replaces `circleci/ruby` |
-| Rust | `cimg/rust` |  **alpha** | [link](https://github.com/CircleCI-Public/cimg-rust) | [link](https://hub.docker.com/r/cimg/rust) | Replaces `circleci/rust` |
+| Rust | `cimg/rust` |  **public beta** | [link](https://github.com/CircleCI-Public/cimg-rust) | [link](https://hub.docker.com/r/cimg/rust) | Replaces `circleci/rust` |
 
 **Release Life Cycle:**
 - alpha - image is recently created and still in the prototyping phase. Will have big changes and may even be deleted.
