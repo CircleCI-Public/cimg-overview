@@ -19,11 +19,11 @@ This table will show where each image is and how "ready" they are to replace the
 | --- | --- | --- | --- | --- | --- |
 | Ubuntu Base | `cimg/base` |  **public beta** | [link](https://github.com/CircleCI-Public/cimg-base) | [link](https://hub.docker.com/r/cimg/base) | new image |
 | Android | `cimg/android` |  **alpha** | [link](https://github.com/CircleCI-Public/cimg-android) | [link](https://hub.docker.com/r/cimg/alpha) | Replaces `circleci/android` |
-| Clojure | `cimg/clojure` |  **private beta** | [link](https://github.com/CircleCI-Public/cimg-clojure) | [link](https://hub.docker.com/r/cimg/clojure) | Replaces `circleci/clojure` |
+| Clojure | `cimg/clojure` |  **public beta** | [link](https://github.com/CircleCI-Public/cimg-clojure) | [link](https://hub.docker.com/r/cimg/clojure) | Replaces `circleci/clojure` |
 | Elixir | `cimg/elixir` |  **private beta** | [link](https://github.com/CircleCI-Public/cimg-elixir) | [link](https://hub.docker.com/r/cimg/elixir) | Replaces `circleci/elixir` |
 | Go | `cimg/go` |  **public beta** | [link](https://github.com/CircleCI-Public/cimg-go) | [link](https://hub.docker.com/r/cimg/go) | Replaces `circleci/golang` |
 | Node.js | `cimg/node` |  **public beta** | [link](https://github.com/CircleCI-Public/cimg-node) | [link](https://hub.docker.com/r/cimg/node) | Replaces `circleci/node` |
-| OpenJDK | `cimg/openjdk` |  **private beta** | [link](https://github.com/CircleCI-Public/cimg-openjdk) | [link](https://hub.docker.com/r/cimg/openjdk) | Replaces `circleci/openjdk` |
+| OpenJDK | `cimg/openjdk` |  **public beta** | [link](https://github.com/CircleCI-Public/cimg-openjdk) | [link](https://hub.docker.com/r/cimg/openjdk) | Replaces `circleci/openjdk` |
 | PHP | `cimg/php` |  **public beta** | [link](https://github.com/CircleCI-Public/cimg-php) | [link](https://hub.docker.com/r/cimg/php) | Replaces `circleci/php` |
 | Python | `cimg/python` |  **public beta** | [link](https://github.com/CircleCI-Public/cimg-python) | [link](https://hub.docker.com/r/cimg/python) | Replaces `circleci/python` |
 | Ruby | `cimg/ruby` |  **public beta** | [link](https://github.com/CircleCI-Public/cimg-ruby) | [link](https://hub.docker.com/r/cimg/ruby) | Replaces `circleci/ruby` |
