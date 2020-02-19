@@ -1,6 +1,6 @@
 # CircleCI "cimg" Convenience Images Overview
 
-The CircleCI `cimg` Convenience Images are a suit of Docker images that are intended to replace the legacy Convenience Images.
+The CircleCI `cimg` Convenience Images are a suite of Docker images that are intended to replace the legacy Convenience Images.
 The legacy images live in [this repository](https://github.com/circleci/circleci-images) and use the Docker Hub orgname `circleci`.
 The new images live in this GitHub org (`CircleCI-Public`) and the repository names are prefixed with `cimg-`.
 The Docker Hub orgname for the new images is `cimg`.
