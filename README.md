@@ -141,6 +141,15 @@ This is because in addition to the actual version number, a version alias or oth
     v8.0.252=lts=https://example.com/download/item.tar-gz
     ```
 
+### Extending a Base Image
+
+All of our Docker images extend a base image.
+The majority of our images will extend the CircleCI Base Image `cimg/base`.
+This base image, and thus most of the CircleCI Convenience Images, will be utilizing Ubuntu.
+The base image will itself be based on the latest Ubuntu LTS release, 2 months after it's published.
+For example, our base image will default to Ubuntu 20.04 in July 2020, and Ubuntu 22.04 in July 2022.
+LTSs will be supported for 3 years total, about 2 years as the default and about 1 year once it's no longer the default.
+
 ## Contributing
 
 Each image has its own repository.
