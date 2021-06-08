@@ -188,3 +188,8 @@ For example, if we were to setup the Python image, we would do the following:
 ```
 sed -i 's/<<IMAGE_NAME>>/python/g' README.md manifest .circleci/config.yml
 ```
+
+
+## Other Documents
+
+Please see other files in this repository for more information.
